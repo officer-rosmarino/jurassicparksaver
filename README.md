@@ -7,6 +7,10 @@ bad. But whatever, if it already exists, I hope you enjoy this version too.
 
 More information on how to write a screensaver module can be found [here](http://www.dis.uniroma1.it/~liberato/screensaver/)
 
+**NOTE: this module has only been tested on my laptop**
+
+![screenshot](https://raw.githubusercontent.com/toohottohoot/jurassicparksaver/master/screensaver.png)
+
 ## Installation
 
 Find the directory where `libX11.so` is by running:
