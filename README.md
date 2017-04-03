@@ -33,8 +33,6 @@ programs: simplesquares
 More information about how to install the module can be found [here](http://www.dis.uniroma1.it/~liberato/screensaver/install.html)
 
 ## Donate
-If you like this project, consider buying me a beer :)
+If you like this project, consider buying me a beer (if we meet, because I still need to set this up) :)
 
 Cheers!
-
-[![paypal](https://www.paypalobjects.com/en_US/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr)
