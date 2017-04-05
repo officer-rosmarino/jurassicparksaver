@@ -13,11 +13,6 @@ More information on how to write a screensaver module can be found [here](http:/
 
 ## Installation
 
-Find the directory where `libX11.so` is by running:
-```
-find /usr -name libX11.so
-```
-
 Compile by make:
 ```
 make
