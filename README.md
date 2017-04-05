@@ -18,16 +18,27 @@ Find the directory where `libX11.so` is by running:
 find /usr -name libX11.so
 ```
 
-Compile by running:
+Compile by make:
 ```
-gcc -pthread -o jurassicpark jurassicpark-saver/jurassicpark.c -Ldirectory -lX11 -lXpm
+make
 ```
-where `directory` is the directory containing the `libX11.so`.
 
-Place the compiled program into a directory in your PATH.
-Add the module to the xscreensaver configuration file. This is done by creating a file .xscreensaver in your home directory. For a single module, this contains a line like:
+Place the compiled program `jurassicpark` into a directory in your PATH.
+Add the module to the xscreensaver configuration file. This is done by creating a file `.xscreensaver` in your home directory. For a single module, this contains a line like:
 ```
 programs: simplesquares
+```
+
+If you already have an `.xscreensaver` file, it will probably look something like this:
+
+```
+[...]
+- GL: 				cubetwist -root				    \n\
+- GL: 				discoball -root				    \n\
+- GL: 				hexstrut -root				    \n\
+- GL: 				splodesic -root				    \n\
+- GL: 				jurassicpark -root		    \n\   <-- the line to add
+[...]
 ```
 
 More information about how to install the module can be found [here](http://www.dis.uniroma1.it/~liberato/screensaver/install.html)
