@@ -9,7 +9,7 @@ More information on how to write a screensaver module can be found [here](http:/
 
 **NOTE: this module has only been tested on my laptop**
 
-![screenshot](https://raw.githubusercontent.com/toohottohoot/jurassicparksaver/master/screensaver.png)
+<img src = "./screensaver-gif.gif">
 
 ## Installation
 
